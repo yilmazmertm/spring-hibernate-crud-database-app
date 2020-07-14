@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring-mvc-crud-one:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring_mvc_crud_one_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="spring-mvc-crud-one/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-mvc-crud-one" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Hibernate 5.4.11-5.4.11" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/Gerekli/JSTL için Gerekli JAR Dosyaları/jstl-libs/javax.servlet.jsp.jstl-1.2.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/Gerekli/JSTL için Gerekli JAR Dosyaları/jstl-libs/javax.servlet.jsp.jstl-api-1.2.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/Gerekli/ComboPoolDataSource JAR Files/c3p0-0.9.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/Gerekli/MYSQL Connector JAR Dosyası 8/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
